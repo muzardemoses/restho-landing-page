@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, SectionOne } from "./Components";
+import { Header, SectionOne, SectionTwo } from "./Components";
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       <Header />
       <main className="text-white">
         <SectionOne />
-        {/* <div className="h-40"></div> */}
+        <SectionTwo />
       </main>
     </div>
   );
