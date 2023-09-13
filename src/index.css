@@ -1,0 +1,78 @@
+@tailwind base;
+/* .font-Cormorant {
+  @apply font-family: 'Cormorant Garamond', serif;
+} */
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: fixed;
+  top: 10;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.banner {
+  background: linear-gradient(90.28deg, #000 0.23%, #09161d 100.33%);
+}
+
+/* Add this class to the button to apply the hover effect */
+.button-with-hover {
+  position: relative;
+  transition: background-position 0.3s ease-in-out;
+  background-image: linear-gradient(90deg, #000000 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
+/* Add a hover effect for the button background color */
+.button-with-hover:hover {
+  background-position: left;
+}
+
+.button-with-arrow{
+  position: relative;
+  transition: background-position 0.3s ease-in-out;
+  background-image: linear-gradient(90deg, #bf9444 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
+.button-with-arrow:hover {
+  background-position: left;
+}
+
+/* fade in and out animation *during play of 4s* */
+/* .fadeInOut {
+  animation: fadeInOut 5.1s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.5;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} */
+.fadeInOut {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.fadeInOut :not(:hover) {
+  opacity: 0.5; 
+}
+
