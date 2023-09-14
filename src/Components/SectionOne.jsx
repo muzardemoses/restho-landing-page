@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
-import subTitVec from "../Assets/sub-title-vec.svg";
-import topImg from "../Assets/top-one.png";
-import bottomImg from "../Assets/bottom-one.png";
-import leftImg from "../Assets/left-one.png";
-import rightImg from "../Assets/right-one.png";
-import topTwoImg from "../Assets/top-two.png";
-import bottomTwoImg from "../Assets/bottom-two.png";
-import leftTwoImg from "../Assets/left-two.png";
-import rightTwoImg from "../Assets/right-two.png";
-import topThreeImg from "../Assets/top-three.png";
-import bottomThreeImg from "../Assets/bottom-three.png";
-import leftThreeImg from "../Assets/left-three.png";
-import rightThreeImg from "../Assets/right-three.png";
+import subTitVec from "../assets/sub-title-vec.svg";
+import topImg from "../assets/top-one.png";
+import bottomImg from "../assets/bottom-one.png";
+import leftImg from "../assets/left-one.png";
+import rightImg from "../assets/right-one.png";
+import topTwoImg from "../assets/top-two.png";
+import bottomTwoImg from "../assets/bottom-two.png";
+import leftTwoImg from "../assets/left-two.png";
+import rightTwoImg from "../assets/right-two.png";
+import topThreeImg from "../assets/top-three.png";
+import bottomThreeImg from "../assets/bottom-three.png";
+import leftThreeImg from "../assets/left-three.png";
+import rightThreeImg from "../assets/right-three.png";
 
 export const SectionOne = () => {
   const [currentPlay, setCurrentPlay] = useState(1);

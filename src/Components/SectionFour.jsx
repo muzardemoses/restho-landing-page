@@ -1,10 +1,10 @@
-import subTitVec from "../Assets/sub-title-vec.svg";
-import itemOne from "../Assets/SecFour/food-item-1.png";
-import itemTwo from "../Assets/SecFour/food-item-2.png";
-import itemThree from "../Assets/SecFour/food-item-3.png";
-import itemFour from "../Assets/SecFour/food-item-4.png";
-import itemFive from "../Assets/SecFour/food-item-5.png";
-import itemSix from "../Assets/SecFour/food-item-6.png";
+import subTitVec from "../assets/sub-title-vec.svg";
+import itemOne from "../assets/SecFour/food-item-1.png";
+import itemTwo from "../assets/SecFour/food-item-2.png";
+import itemThree from "../assets/SecFour/food-item-3.png";
+import itemFour from "../assets/SecFour/food-item-4.png";
+import itemFive from "../assets/SecFour/food-item-5.png";
+import itemSix from "../assets/SecFour/food-item-6.png";
 
 export const SectionFour = () => {
   return (
@@ -186,7 +186,7 @@ export const SectionFour = () => {
                   fontFamily: "'Cormorant Garamond', serif",
                 }}
               >
-               Mutton Kabab
+                Mutton Kabab
               </h4>
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.

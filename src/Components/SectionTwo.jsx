@@ -1,14 +1,14 @@
 import thaiSoupImg from "../assets/SecTwo/thai-soup.png";
 import seaFoodImg from "../assets/SecTwo/sea-food.png";
 import meatMasalaImg from "../assets/SecTwo/meat-masala.png";
-import vegetarianImg from "../Assets/SecTwo/vegetarian.png";
+import vegetarianImg from "../assets/SecTwo/vegetarian.png";
 import subTitVec from "../assets/sub-title-vec.svg";
-import vegeSVG from "../Assets/SecTwo/carrot-vege.svg";
-import chefSVG from "../Assets/SecTwo/chef-cap.svg";
-import aboutTopImg from "../Assets/SecTwo/about-top.png";
-import aboutBottomImg from "../Assets/SecTwo/about-bottom.png";
-import aboutLeftImg from "../Assets/SecTwo/about-left.png";
-import aboutRightImg from "../Assets/SecTwo/about-right.png";
+import vegeSVG from "../assets/SecTwo/carrot-vege.svg";
+import chefSVG from "../assets/SecTwo/chef-cap.svg";
+import aboutTopImg from "../assets/SecTwo/about-top.png";
+import aboutBottomImg from "../assets/SecTwo/about-bottom.png";
+import aboutLeftImg from "../assets/SecTwo/about-left.png";
+import aboutRightImg from "../assets/SecTwo/about-right.png";
 
 export const SectionTwo = () => {
   return (

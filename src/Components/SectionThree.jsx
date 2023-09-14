@@ -1,7 +1,7 @@
-import subTitVec from "../Assets/sub-title-vec.svg";
-import imgOne from "../Assets/SecThree/img-one.png";
-import imgTwo from "../Assets/SecThree/img-two.png";
-import imgThree from "../Assets/SecThree/img-three.png";
+import subTitVec from "../assets/sub-title-vec.svg";
+import imgOne from "../assets/SecThree/img-one.png";
+import imgTwo from "../assets/SecThree/img-two.png";
+import imgThree from "../assets/SecThree/img-three.png";
 
 export const SectionThree = () => {
   return (
