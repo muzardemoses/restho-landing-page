@@ -12,7 +12,7 @@ import aboutRightImg from "../Assets/SecTwo/about-right.png";
 
 export const SectionTwo = () => {
   return (
-    <section className="text-black h-screen flex flex-col gap-[120px] py-[120px] px-48 2xl:px-20">
+    <section className="text-black h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px]">
       <div className="flex justify-between items-center">
         <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
           <div className="">
@@ -101,22 +101,22 @@ export const SectionTwo = () => {
             <img
               src={aboutTopImg}
               alt="top"
-              className="absolute bottom-[10px] right-[50px] fadeInOut"
+              className="absolute bottom-[15px] right-[52px] w-[240px] fadeInOut"
             />
             <img
               src={aboutBottomImg}
               alt="bottom"
-              className="absolute -top-[10px] right-7 fadeInOut"
+              className="absolute -top-[10px] right-14 w-[240px] fadeInOut"
             />
             <img
               src={aboutLeftImg}
               alt="left"
-              className="absolute -top-[190px] right-48 fadeInOut"
+              className="absolute -top-[135px] right-[180px] w-[240px] fadeInOut"
             />
             <img
               src={aboutRightImg}
               alt="right"
-              className="absolute -top-[130px] -right-[90px] fadeInOut"
+              className="absolute -top-[130px] -right-[70px] w-[240px] fadeInOut"
             />
           </>
         </div>
