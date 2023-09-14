@@ -26,3 +26,5 @@ export default {
   plugins: [],
 }
 
+//grid grid-cols-3 grid-flow-row w-full
+//w-[33.3333333333%] md:w-[50%] sm:w-[100%]
