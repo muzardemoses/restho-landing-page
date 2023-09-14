@@ -35,13 +35,25 @@ export const SectionOne = () => {
         <div className="flex gap-40 items-center">
           <div className="flex flex-col gap-5">
             <div className="bg-[#795b23bd] rounded-sm p-[2px] transform rotate-45">
-              <div className={`h-3.5 w-3.5  border-2 border-black ${currentPlay === 1 ? 'bg-[#bf9444]' : 'bg-[#795b23bd]'}`}></div>
+              <div
+                className={`h-3.5 w-3.5  border-2 border-black ${
+                  currentPlay === 1 ? "bg-[#bf9444]" : "bg-[#795b23bd]"
+                }`}
+              ></div>
             </div>
             <div className="bg-[#795b23bd] rounded-sm p-[2px] transform rotate-45">
-              <div className={`h-3.5 w-3.5  border-2 border-black ${currentPlay === 2 ? 'bg-[#bf9444]' : 'bg-[#795b23bd]'}`}></div>
+              <div
+                className={`h-3.5 w-3.5  border-2 border-black ${
+                  currentPlay === 2 ? "bg-[#bf9444]" : "bg-[#795b23bd]"
+                }`}
+              ></div>
             </div>
             <div className="bg-[#795b23bd] rounded-sm p-[2px] transform rotate-45">
-              <div className={`h-3.5 w-3.5  border-2 border-black ${currentPlay === 3 ? 'bg-[#bf9444]' : 'bg-[#795b23bd]'}`}></div>
+              <div
+                className={`h-3.5 w-3.5  border-2 border-black ${
+                  currentPlay === 3 ? "bg-[#bf9444]" : "bg-[#795b23bd]"
+                }`}
+              ></div>
             </div>
           </div>
           <div className="w-[755px] 2xl:w-[550px]">
