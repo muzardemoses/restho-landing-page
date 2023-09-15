@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, SectionOne, SectionTwo, SectionThree, SectionFour, SectionFive, SectionSix } from "./Components";
+import { Header, SectionOne, SectionTwo, SectionThree, SectionFour, SectionFive, SectionSix, Footer } from "./Components";
 
 function App() {
 
@@ -23,6 +23,7 @@ function App() {
         <SectionFive />
         <SectionSix />
       </main>
+      <Footer />
     </div>
   );
 }

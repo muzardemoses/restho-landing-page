@@ -104,3 +104,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.footer-bg {
+  background-image: linear-gradient(rgba(9, 22, 29, 0.9), rgba(9, 22, 29, 0.9)),
+    url(./assets/footer-bg.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
