@@ -4,8 +4,8 @@ import subTitVec from "../assets/sub-title-vec.svg";
 export const Footer = () => {
   return (
     <div className="footer-bg px-20 flex flex-col justify-center items-center text-[#ffffffcc] xl:px-8">
-      <div className="py-[100px] flex justify-between items-center w-full">
-        <div className="flex flex-col gap-7">
+      <div className="py-[100px] flex justify-between items-center w-full lg:grid lg:grid-cols-2 lg:grid-flow-row sm:flex sm:gap-7 sm:flex-col">
+        <div className="flex flex-col gap-7 sm:text-center sm:order-2">
           <h2
             className="text-white text-[1.875rem] font-bold"
             style={{
@@ -48,7 +48,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="w-[300px] h-[300px] border border-[hsla(0,0%,100%,.15)] rounded-full flex flex-col gap-5 items-center justify-center">
+        <div className="w-[300px] h-[300px] border border-[hsla(0,0%,100%,.15)] rounded-full flex flex-col gap-5 items-center justify-center sm:order-1">
           <img src={logoSVG} alt="logo" className="" />
           <div className="flex flex-col gap-2 items-center">
             <p className="text-center font-bold text-lg tracking-[.2rem]">
@@ -131,7 +131,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-7 w-1/2 xl:w-1/3">
+        <div className="flex flex-col gap-7 w-1/2 xl:w-1/3 lg:w-full sm:text-center sm:order-3">
           <h2
             className="text-white text-[1.875rem] font-bold"
             style={{
@@ -162,15 +162,19 @@ export const Footer = () => {
             <li className=" text-lg font-normal ">
               <span className="text-[#bf9444]">Location:</span>{" "}
               <span className="transition duration-300 ease-in-out hover:text-[#bf9444] hover:cursor-pointer">
-              Mirpur DOHS,House-167/170, Road-02 Avenue-01.
+                Mirpur DOHS,House-167/170, Road-02 Avenue-01.
               </span>
             </li>
           </ul>
         </div>
       </div>
-      <div className="py-2.5 border-t border-[hsla(0,0%,100%,.15)] w-full flex justify-between">
-        <p>@Copyright by Egenslab -2023, All Right Reserved.</p>
-        <p>Privacy & Policy | Terms & Conditions</p>
+      <div className="py-2.5 border-t border-[hsla(0,0%,100%,.15)] w-full flex justify-between sm:flex-col sm:text-center">
+        <p className="text-[#ffffff] text-base font-normal">
+          @Copyright by Egenslab -2023, All Right Reserved.
+        </p>
+        <p className="text-[#ffffff] text-base font-normal">
+          Privacy & Policy | Terms & Conditions
+        </p>
       </div>
     </div>
   );

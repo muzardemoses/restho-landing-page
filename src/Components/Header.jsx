@@ -6,12 +6,12 @@ import locationSVG from "../assets/location.svg";
 export const Header = () => {
   return (
     <header className="flex flex-col justify-center items-center bg-[linear-gradient(90deg,#000,#09161d)] overflow-auto">
-      <div className="py-2.5 flex justify-between items-center text-white w-full px-48 2xl:px-20">
+      <div className="py-2.5 flex justify-between items-center text-white w-full px-48 2xl:px-20 lg:px-10 md:justify-center">
         <p className="text-sm font-normal">
           <span className="text-[#bf9444]">Opening Hour:</span>{" "}
           <span>9.00 am to 10.00 pm</span>
         </p>
-        <div className="flex gap-[50px]">
+        <div className="flex gap-[50px] md:hidden">
           <a
             href="mailto:info@example.com"
             rel="noreferrer"

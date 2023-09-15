@@ -5,7 +5,7 @@ import blogImgThree from "../assets/SecSix/blog3.png";
 
 export const SectionSix = () => {
   return (
-    <div className="text-black py-[120px] flex flex-col gap-10 justify-center items-center">
+    <div className="text-black py-[120px] flex flex-col gap-10 justify-center items-center lg:py-[80px]">
       <div className="flex flex-col gap-1.5 items-center">
         <div className="flex gap-2.5">
           <img src={subTitVec} alt="sub-title-vec" className="" />
@@ -13,7 +13,7 @@ export const SectionSix = () => {
           <img src={subTitVec} alt="sub-title-vec" className="" />
         </div>
         <h3
-          className="text-[3.75rem] font-bold"
+          className="text-[3.75rem] font-bold md:text-[3rem] sm:text-[2.5rem]"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
           }}
@@ -21,7 +21,7 @@ export const SectionSix = () => {
           Our Latest Blog
         </h3>
       </div>
-      <div className="grid grid-cols-3 grid-flow-row gap-8 w-full px-36 xl:px-12">
+      <div className="grid grid-cols-3 grid-flow-row gap-8 w-full px-36 xl:px-12 lg:grid-cols-2 md:px-8 sm:grid-cols-1 sm:px-5">
         <div className="">
           <div className="relative w-[90%] mx-auto">
             <img

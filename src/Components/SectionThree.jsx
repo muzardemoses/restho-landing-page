@@ -5,7 +5,7 @@ import imgThree from "../assets/SecThree/img-three.png";
 
 export const SectionThree = () => {
   return (
-    <div className="h-[calc(100vh-80px)] sec-three py-20 flex flex-col justify-center items-center gap-10">
+    <div className="h-[calc(100vh-80px)] sec-three py-20 flex flex-col justify-center items-center gap-10 sm:px-4">
       <div className="flex gap-[5px] flex-col items-center">
         <div className="flex gap-2.5">
           <img src={subTitVec} alt="sub-title-vec" className="" />
@@ -13,19 +13,19 @@ export const SectionThree = () => {
           <img src={subTitVec} alt="sub-title-vec" className="" />
         </div>
         <h2
-          className="text-[3.75rem] font-bold"
+          className="text-[3.75rem] font-bold md:text-[3rem] sm:text-[2.5rem]"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
           }}
         >
           Restho New Item List
         </h2>
-        <p className="text-[hsla(0,0%,100%,.8)] pt-2.5 text-lg font-normal">
+        <p className="text-[hsla(0,0%,100%,.8)] pt-2.5 text-lg font-normal sm:text-center">
           Various versions have evolved over the years, sometimes on purpose.
         </p>
       </div>
       <div className="flex justify-center items-center gap-16 2xl:gap-4">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 sm:hidden">
           <div className="relative">
             <img src={imgOne} alt="img-one" className="xl:h-[300px] xl:w-[300px]" />
             <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444] xl:bottom-6 xl:right-[120px]">
@@ -71,7 +71,7 @@ export const SectionThree = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 lg:hidden">
           <div className="relative">
             <img src={imgThree} alt="img-three" className="xl:h-[300px] xl:w-[300px]" />
             <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444] xl:bottom-6 xl:right-[120px]">

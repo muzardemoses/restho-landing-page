@@ -97,7 +97,7 @@ border-bottom: 1px solid #09161d;
   background-position: 50%;
 }
 
-.sec-four {
+.sec-five {
   background-image: linear-gradient(
       rgba(9, 22, 29, 0.75),
       rgba(9, 22, 29, 0.75)
@@ -114,4 +114,10 @@ border-bottom: 1px solid #09161d;
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1023px) {
+  .sec-five {
+    background-position: 100%;
+  }
 }

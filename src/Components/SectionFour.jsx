@@ -16,9 +16,9 @@ import chefThree from "../assets/SecFour/chef-3.png";
 
 export const SectionFour = () => {
   return (
-    <div className="min-h-screen text-black py-[120px] flex flex-col gap-[120px] justify-center items-center xl:py-[100px]">
-      <section className="w-[1320px] flex flex-col gap-12 2xl:w-[1240px] xl:w-[910px] lg:w-[620px] sm:w-[100%]">
-        <div className="flex justify-between items-center">
+    <div className="min-h-screen text-black py-[120px] flex flex-col gap-[120px] justify-center items-center xl:py-[100px] lg:py-[80px] lg:gap-[100px] sm:gap-[80px]">
+      <section className="w-[1320px] flex flex-col gap-12 2xl:w-[1240px] xl:w-[910px] lg:w-[700px] lg:gap-[73px] md:w-[100%] md:px-8 sm:px-2">
+        <div className="flex justify-between items-center lg:flex-col lg:items-start lg:gap-3">
           <div className="flex flex-col gap-1.5">
             <div className="flex gap-2.5">
               <img src={subTitVec} alt="sub-title-vec" className="" />
@@ -26,7 +26,7 @@ export const SectionFour = () => {
               <img src={subTitVec} alt="sub-title-vec" className="" />
             </div>
             <h3
-              className="text-[3.75rem] font-bold"
+              className="text-[3.75rem] font-bold lg:text-[3.5rem] md:text-[3rem] sm:text-[2.5rem]"
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
               }}
@@ -56,7 +56,7 @@ export const SectionFour = () => {
             </p>
           </button>
         </div>
-        <div className="grid grid-cols-3 grid-flow-row gap-6 w-full">
+        <div className="grid grid-cols-3 grid-flow-row gap-6 w-full lg:grid-cols-2 sm:grid-cols-1 sm:w-[360px] sm:mx-auto">
           <div className="relative">
             <img
               src={itemOne}
@@ -75,7 +75,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px]">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px] lg:right-[115px] md:right-[84px] sm:right-[130px]">
                 $45
               </div>
             </div>
@@ -106,7 +106,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px]">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px] lg:right-[115px] md:right-[84px] sm:right-[130px]">
                 $45
               </div>
             </div>
@@ -137,7 +137,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px]">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px] lg:right-[115px] md:right-[84px] sm:right-[130px]">
                 $45
               </div>
             </div>
@@ -168,7 +168,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px] lg:right-[115px] md:right-[84px] sm:right-[130px]">
                 $45
               </div>
             </div>
@@ -199,7 +199,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px] lg:right-[115px] md:right-[84px] sm:right-[130px]">
                 $45
               </div>
             </div>
@@ -230,7 +230,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px] lg:right-[115px] md:right-[84px] sm:right-[130px]">
                 $45
               </div>
             </div>
@@ -252,7 +252,7 @@ export const SectionFour = () => {
           <img src={subTitVec} alt="sub-title-vec" className="" />
         </div>
         <h3
-          className="text-[3.75rem] font-bold"
+          className="text-[3.75rem] font-bold md:text-[3rem] sm:text-[2.5rem]"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
           }}
@@ -267,21 +267,21 @@ export const SectionFour = () => {
           <img src={galFive} alt="gallery-five" className="w-full h-full" />
         </div>
       </section>
-      <section className="flex flex-col text-center gap-2 px-10 items-center">
+      <section className="flex flex-col text-center gap-2 px-10 items-center sm:px-8">
         <div className="flex gap-2.5">
           <img src={subTitVec} alt="sub-title-vec" className="" />
           <p className="text-[#bf9444] text-lg font-normal">Our Expertises</p>
           <img src={subTitVec} alt="sub-title-vec" className="" />
         </div>
         <h3
-          className="text-[3.75rem] font-bold"
+          className="text-[3.75rem] font-bold md:text-[3rem] sm:text-[2.5rem]"
           style={{
             fontFamily: "'Cormorant Garamond', serif",
           }}
         >
           Restho&apos;s Best Chef
         </h3>
-        <div className="mt-10 grid grid-cols-3 grid-flow-row gap-8 w-full">
+        <div className="mt-10 grid grid-cols-3 grid-flow-row gap-8 w-full lg:grid-cols-2 sm:grid-cols-1">
           <div>
             <div className="overflow-hidden rounded-t-[10px]">
               <img

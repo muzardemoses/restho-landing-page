@@ -12,9 +12,9 @@ import aboutRightImg from "../assets/SecTwo/about-right.png";
 
 export const SectionTwo = () => {
   return (
-    <section className="text-black min-h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px] xl:px-7">
-      <div className="flex justify-between items-center">
-        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
+    <section className="text-black min-h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px] xl:px-5">
+      <div className="flex justify-between items-center xl:justify-center xl:gap-16 lg:gap-[100px]">
+        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5 2xl:w-[250px]">
           <div className="">
             <h4
               className="text-[1.625rem] font-bold"
@@ -34,7 +34,7 @@ export const SectionTwo = () => {
             className="absolute -top-4 -left-14"
           />
         </div>
-        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
+        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5 2xl:w-[250px] md:hidden">
           <div className="">
             <h4
               className="text-[1.625rem] font-bold"
@@ -74,7 +74,7 @@ export const SectionTwo = () => {
             />
           </div>
         </div>
-        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
+        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px] lg:hidden">
           <div className="">
             <h4
               className="text-[1.625rem] font-bold"
@@ -95,32 +95,32 @@ export const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-[200px] items-center 2xl:gap-[140px] xl:gap-[110px]">
-        <div className="relative w-[520px] xl:w-[480px]">
+      <div className="flex gap-[200px] items-center 2xl:gap-[140px] xl:gap-[110px] lg:flex-col lg:pt-[280px] lg:justify-center lg:px-5 sm:pt-52 sm:px-0">
+        <div className="relative w-[520px] xl:w-[480px] lg:-ml-40 sm:-ml-48">
           <>
             <img
               src={aboutTopImg}
               alt="top"
-              className="absolute bottom-[15px] right-[52px] w-[240px] fadeInOut"
+              className="absolute bottom-[15px] right-[52px] w-[240px] fadeInOut sm:w-[180px] sm:right-[56px] sm:bottom-[10px]"
             />
             <img
               src={aboutBottomImg}
               alt="bottom"
-              className="absolute -top-[10px] right-14 w-[240px] fadeInOut"
+              className="absolute -top-[10px] right-14 w-[240px] fadeInOut sm:w-[180px]"
             />
             <img
               src={aboutLeftImg}
               alt="left"
-              className="absolute -top-[135px] right-[180px] w-[240px] fadeInOut"
+              className="absolute -top-[135px] right-[180px] w-[240px] fadeInOut sm:w-[180px] sm:-top-[100px] sm:right-[150px]"
             />
             <img
               src={aboutRightImg}
               alt="right"
-              className="absolute -top-[130px] -right-[70px] w-[240px] fadeInOut"
+              className="absolute -top-[130px] -right-[70px] w-[240px] fadeInOut sm:w-[180px] sm:-top-[100px] sm:-right-[38px]"
             />
           </>
         </div>
-        <div className="w-[710px] flex flex-col gap-7 xl:w-[500px]">
+        <div className="w-[710px] flex flex-col gap-7 xl:w-[500px] lg:w-full lg:pt-48 sm:pt-36">
           <div className="flex flex-col gap-[5px]">
             <div className="flex gap-2.5">
               <img src={subTitVec} alt="sub-title-vec" className="" />
@@ -133,6 +133,7 @@ export const SectionTwo = () => {
               className="text-[3.75rem] font-bold xl:text-[2.5rem]"
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
+                lineHeight: "1.2",
               }}
             >
               Come to Our Restaurant, Ready Your Food.
@@ -146,7 +147,7 @@ export const SectionTwo = () => {
               Lorem Ipsum.
             </p>
           </div>
-          <div className="flex gap-[50px] xl:flex-col">
+          <div className="flex gap-[50px] xl:flex-col lg:flex-row sm:flex-col sm:gap-4">
             <div className="flex gap-5">
               <div className="h-[60px] w-[60px] flex justify-center items-center border border-[#bf9444] rounded-[5px] mt-0.5">
                 <img src={vegeSVG} alt="vege-svg" />
