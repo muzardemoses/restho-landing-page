@@ -12,7 +12,7 @@ import aboutRightImg from "../assets/SecTwo/about-right.png";
 
 export const SectionTwo = () => {
   return (
-    <section className="text-black min-h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px]">
+    <section className="text-black min-h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px] xl:px-7">
       <div className="flex justify-between items-center">
         <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
           <div className="">
@@ -54,7 +54,7 @@ export const SectionTwo = () => {
             />
           </div>
         </div>
-        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
+        <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5 2xl:hidden">
           <div className="">
             <h4
               className="text-[1.625rem] font-bold"
@@ -95,8 +95,8 @@ export const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-[200px] items-center 2xl:gap-[140px]">
-        <div className="relative w-[520px]">
+      <div className="flex gap-[200px] items-center 2xl:gap-[140px] xl:gap-[110px]">
+        <div className="relative w-[520px] xl:w-[480px]">
           <>
             <img
               src={aboutTopImg}
@@ -120,7 +120,7 @@ export const SectionTwo = () => {
             />
           </>
         </div>
-        <div className="w-[710px] flex flex-col gap-7">
+        <div className="w-[710px] flex flex-col gap-7 xl:w-[500px]">
           <div className="flex flex-col gap-[5px]">
             <div className="flex gap-2.5">
               <img src={subTitVec} alt="sub-title-vec" className="" />
@@ -130,7 +130,7 @@ export const SectionTwo = () => {
               <img src={subTitVec} alt="sub-title-vec" className="" />
             </div>
             <h2
-              className="text-[3.75rem] font-bold"
+              className="text-[3.75rem] font-bold xl:text-[2.5rem]"
               style={{
                 fontFamily: "'Cormorant Garamond', serif",
               }}
@@ -146,7 +146,7 @@ export const SectionTwo = () => {
               Lorem Ipsum.
             </p>
           </div>
-          <div className="flex gap-[50px]">
+          <div className="flex gap-[50px] xl:flex-col">
             <div className="flex gap-5">
               <div className="h-[60px] w-[60px] flex justify-center items-center border border-[#bf9444] rounded-[5px] mt-0.5">
                 <img src={vegeSVG} alt="vege-svg" />

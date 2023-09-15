@@ -21,7 +21,7 @@ export const SectionSix = () => {
           Our Latest Blog
         </h3>
       </div>
-      <div className="grid grid-cols-3 grid-flow-row gap-8 w-full px-36">
+      <div className="grid grid-cols-3 grid-flow-row gap-8 w-full px-36 xl:px-12">
         <div className="">
           <div className="relative w-[90%] mx-auto">
             <img

@@ -27,8 +27,8 @@ export const SectionThree = () => {
       <div className="flex justify-center items-center gap-16 2xl:gap-4">
         <div className="flex flex-col items-center gap-4">
           <div className="relative">
-            <img src={imgOne} alt="img-one" className="" />
-            <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444]">
+            <img src={imgOne} alt="img-one" className="xl:h-[300px] xl:w-[300px]" />
+            <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444] xl:bottom-6 xl:right-[120px]">
               <p className="text-gray-500 text-lg font-semibold transform -rotate-45 transition duration-300 ease-in-out group-hover:text-white group-hover:bg-[#bf9444]">
                 $32
               </p>
@@ -50,8 +50,8 @@ export const SectionThree = () => {
         </div>
         <div className="flex flex-col items-center gap-4">
           <div className="relative">
-            <img src={imgTwo} alt="img-two" className="" />
-            <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444]">
+            <img src={imgTwo} alt="img-two" className="xl:h-[300px] xl:w-[300px]" />
+            <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444] xl:bottom-6 xl:right-[120px]">
               <p className="text-gray-500 text-lg font-semibold transform -rotate-45 transition duration-300 ease-in-out group-hover:text-white group-hover:bg-[#bf9444]">
                 $32
               </p>
@@ -73,8 +73,8 @@ export const SectionThree = () => {
         </div>
         <div className="flex flex-col items-center gap-4">
           <div className="relative">
-            <img src={imgThree} alt="img-three" className="" />
-            <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444]">
+            <img src={imgThree} alt="img-three" className="xl:h-[300px] xl:w-[300px]" />
+            <div className="absolute bottom-8 right-[180px] bg-white transform rotate-45 w-[60px] h-[60px] rounded-[10px] flex justify-center items-center group transition duration-300 ease-in-out hover:bg-[#bf9444] xl:bottom-6 xl:right-[120px]">
               <p className="text-gray-500 text-lg font-semibold transform -rotate-45 transition duration-300 ease-in-out group-hover:text-white group-hover:bg-[#bf9444]">
                 $32
               </p>

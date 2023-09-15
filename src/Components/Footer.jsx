@@ -3,7 +3,7 @@ import subTitVec from "../assets/sub-title-vec.svg";
 
 export const Footer = () => {
   return (
-    <div className="footer-bg px-20 flex flex-col gap-10 justify-center items-center text-[#ffffffcc]">
+    <div className="footer-bg px-20 flex flex-col justify-center items-center text-[#ffffffcc] xl:px-8">
       <div className="py-[100px] flex justify-between items-center w-full">
         <div className="flex flex-col gap-7">
           <h2
@@ -131,7 +131,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-7 w-1/2 xl:w-1/3">
           <h2
             className="text-white text-[1.875rem] font-bold"
             style={{

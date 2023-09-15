@@ -22,7 +22,7 @@ export const SectionFive = () => {
           For Online Reservation
         </h3>
       </div>
-      <form className="w-[60%] flex gap-6 flex-col items-center 2xl:w-[70%]">
+      <form className="w-[60%] flex gap-6 flex-col items-center 2xl:w-[70%] xl:w-[78%]">
         <div className="w-full grid grid-cols-2 grid-flow-row gap-6 flexcol items-center">
           <input
             type="text"

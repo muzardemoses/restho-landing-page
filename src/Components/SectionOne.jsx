@@ -30,7 +30,7 @@ export const SectionOne = () => {
   }, [currentPlay]);
 
   return (
-    <section className="banner h-[calc(100vh-80px)] pl-20 pr-56 flex items-center 2xl:pl-6 2xl:pr-[140px]">
+    <section className="banner h-[calc(100vh-80px)] pl-20 pr-56 flex items-center 2xl:pl-6 2xl:pr-[140px] xl:pr-[100px]">
       <div className="flex justify-between items-center h-full w-full">
         <div className="flex gap-40 items-center 2xl:gap-7">
           <div className="flex flex-col gap-5">
@@ -65,7 +65,7 @@ export const SectionOne = () => {
               <img src={subTitVec} alt="sub-title-vec" className="" />
             </div>
             <h2
-              className="text-[5rem] font-bold mb-[35px] 2xl:text-6xl"
+              className="text-[5rem] font-bold mb-[35px] 2xl:text-6xl xl:text-[3.6rem]"
               style={{
                 lineHeight: "1.1",
                 fontFamily: "'Cormorant Garamond', serif",
@@ -108,22 +108,22 @@ export const SectionOne = () => {
               <img
                 src={topThreeImg}
                 alt="top"
-                className="absolute bottom-[10px] right-[50px] fadeInOut"
+                className="absolute bottom-[10px] right-[50px] fadeInOut xl:w-52 xl:h-52 xl:right-[14px] xl:-bottom-[10px]"
               />
               <img
                 src={bottomThreeImg}
                 alt="bottom"
-                className="absolute -top-[10px] right-0 fadeInOut"
+                className="absolute -top-[10px] right-0 fadeInOut xl:w-52 xl:h-52 xl:top-[20px] xl:right-3"
               />
               <img
                 src={leftThreeImg}
                 alt="left"
-                className="absolute -top-[160px] -right-28 fadeInOut"
+                className="absolute -top-[160px] -right-28 fadeInOut xl:w-52 xl:h-52 xl:-top-[90px] xl:-right-[93px]"
               />
               <img
                 src={rightThreeImg}
                 alt="right"
-                className="absolute -top-[160px] right-[211px] fadeInOut"
+                className="absolute -top-[160px] right-[211px] fadeInOut xl:w-52 xl:h-52 xl:-top-[88px] xl:right-[120px]"
               />
             </>
           ) : currentPlay === 2 ? (
@@ -131,22 +131,22 @@ export const SectionOne = () => {
               <img
                 src={topTwoImg}
                 alt="top"
-                className="absolute bottom-[10px] right-[50px] fadeInOut"
+                className="absolute bottom-[10px] right-[50px] fadeInOut xl:w-52 xl:h-52 xl:right-[14px] xl:-bottom-[10px]"
               />
               <img
                 src={bottomTwoImg}
                 alt="bottom"
-                className="absolute -top-[10px] right-0 fadeInOut"
+                className="absolute -top-[10px] right-0 fadeInOut xl:w-52 xl:h-52 xl:top-[20px] xl:right-3"
               />
               <img
                 src={leftTwoImg}
                 alt="left"
-                className="absolute -top-[160px] -right-28 fadeInOut"
+                className="absolute -top-[160px] -right-28 fadeInOut xl:w-52 xl:h-52 xl:-top-[90px] xl:-right-[93px]"
               />
               <img
                 src={rightTwoImg}
                 alt="right"
-                className="absolute -top-[160px] right-[211px] fadeInOut"
+                className="absolute -top-[160px] right-[211px] fadeInOut xl:w-52 xl:h-52 xl:-top-[88px] xl:right-[120px]"
               />
             </>
           ) : (
@@ -154,22 +154,22 @@ export const SectionOne = () => {
               <img
                 src={topImg}
                 alt="top"
-                className="absolute bottom-[10px] right-[50px] fadeInOut"
+                className="absolute bottom-[10px] right-[50px] fadeInOut xl:w-52 xl:h-52 xl:right-[14px] xl:-bottom-[10px]"
               />
               <img
                 src={bottomImg}
                 alt="bottom"
-                className="absolute -top-[10px] right-0 fadeInOut"
+                className="absolute -top-[10px] right-0 fadeInOut xl:w-52 xl:h-52 xl:top-[20px] xl:right-3"
               />
               <img
                 src={leftImg}
                 alt="left"
-                className="absolute -top-[160px] -right-28 fadeInOut"
+                className="absolute -top-[160px] -right-28 fadeInOut xl:w-52 xl:h-52 xl:-top-[90px] xl:-right-[93px]"
               />
               <img
                 src={rightImg}
                 alt="right"
-                className="absolute -top-[160px] right-[211px] fadeInOut"
+                className="absolute -top-[160px] right-[211px] fadeInOut xl:w-52 xl:h-52 xl:-top-[88px] xl:right-[120px]"
               />
             </>
           )}

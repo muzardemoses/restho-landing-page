@@ -16,8 +16,8 @@ import chefThree from "../assets/SecFour/chef-3.png";
 
 export const SectionFour = () => {
   return (
-    <div className="min-h-screen text-black py-[120px] flex flex-col gap-[120px] justify-center items-center">
-      <section className="w-[1320px] flex flex-col gap-12 2xl:w-[1240px] xl:w-[740px] lg:w-[620px] sm:w-[100%]">
+    <div className="min-h-screen text-black py-[120px] flex flex-col gap-[120px] justify-center items-center xl:py-[100px]">
+      <section className="w-[1320px] flex flex-col gap-12 2xl:w-[1240px] xl:w-[910px] lg:w-[620px] sm:w-[100%]">
         <div className="flex justify-between items-center">
           <div className="flex flex-col gap-1.5">
             <div className="flex gap-2.5">
@@ -75,7 +75,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px]">
                 $45
               </div>
             </div>
@@ -106,7 +106,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px]">
                 $45
               </div>
             </div>
@@ -137,7 +137,7 @@ export const SectionFour = () => {
               <p className="text-[#5e5e5e] text-lg font-normal text-center w-[250px]">
                 It is a long established fact that a reader will be distracted.
               </p>
-              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold">
+              <div className="absolute -top-5 right-40 z-10 rounded-full border border-[#eee] bg-white px-[35px] text-[#bf9444] text-[1.375rem] font-bold xl:right-[90px]">
                 $45
               </div>
             </div>
