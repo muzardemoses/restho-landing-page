@@ -12,7 +12,7 @@ import aboutRightImg from "../assets/SecTwo/about-right.png";
 
 export const SectionTwo = () => {
   return (
-    <section className="text-black h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px]">
+    <section className="text-black min-h-screen flex flex-col gap-[80px] py-[80px] px-48 2xl:px-20 2xl:pb[120px]">
       <div className="flex justify-between items-center">
         <div className="relative w-[270px] border border-[#eeee] py-5 pr-[15px] pl-[110px] rounded-[5px] flex flex-col items-end 2xl:pr-2.5  2xl:w-[250px]">
           <div className="">
@@ -95,7 +95,7 @@ export const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-[200px] items-center">
+      <div className="flex gap-[200px] items-center 2xl:gap-[140px]">
         <div className="relative w-[520px]">
           <>
             <img

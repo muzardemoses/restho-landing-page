@@ -24,7 +24,7 @@ export const SectionThree = () => {
           Various versions have evolved over the years, sometimes on purpose.
         </p>
       </div>
-      <div className="flex justify-center items-center gap-16">
+      <div className="flex justify-center items-center gap-16 2xl:gap-4">
         <div className="flex flex-col items-center gap-4">
           <div className="relative">
             <img src={imgOne} alt="img-one" className="" />

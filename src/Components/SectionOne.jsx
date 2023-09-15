@@ -30,9 +30,9 @@ export const SectionOne = () => {
   }, [currentPlay]);
 
   return (
-    <section className="banner h-[calc(100vh-80px)] pl-20 pr-56 flex items-center">
+    <section className="banner h-[calc(100vh-80px)] pl-20 pr-56 flex items-center 2xl:pl-6 2xl:pr-[140px]">
       <div className="flex justify-between items-center h-full w-full">
-        <div className="flex gap-40 items-center">
+        <div className="flex gap-40 items-center 2xl:gap-7">
           <div className="flex flex-col gap-5">
             <div className="bg-[#795b23bd] rounded-sm p-[2px] transform rotate-45">
               <div
