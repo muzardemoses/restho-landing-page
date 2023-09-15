@@ -36,6 +36,18 @@ body {
   background-position: left;
 }
 
+.button-with-arrow {
+  position: relative;
+  transition: background-position 0.3s ease-in-out;
+  background-image: linear-gradient(90deg, #bf9444 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
+.button-with-arrow:hover {
+  background-position: left;
+}
+
 .button-with-white {
   position: relative;
   transition: background-position 0.3s ease-in-out;
