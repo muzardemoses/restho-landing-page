@@ -36,15 +36,15 @@ body {
   background-position: left;
 }
 
-.button-with-arrow {
+.button-with-white {
   position: relative;
   transition: background-position 0.3s ease-in-out;
-  background-image: linear-gradient(90deg, #bf9444 50%, transparent 50%);
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right;
 }
 
-.button-with-arrow:hover {
+.button-with-white:hover {
   background-position: left;
 }
 
@@ -79,5 +79,16 @@ body {
 .sec-three {
   background-image: linear-gradient(rgba(9, 22, 29, 0.8), rgba(9, 22, 29, 0.8)),
     url(./assets/SecThree/h2-regular-items-bg.28bec6e3.png);
-    background-position: 50%;
+  background-position: 50%;
+}
+
+.sec-four {
+  background-image: linear-gradient(
+      rgba(9, 22, 29, 0.75),
+      rgba(9, 22, 29, 0.75)
+    ),
+    url(./assets/SecFive/h2-reservation-bg.ca77ecb0.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
