@@ -287,7 +287,7 @@ export const SectionFour = () => {
               <img
                 src={chefOne}
                 alt="chef-one"
-                className="overflow-hidden w-full rounded-t-[10px] transition duration-300 ease-in-out hover:transform hover:scale-110"
+                className="overflow-hidden w-full rounded-t-[10px] transition duration-300 ease-in-out hover:transform hover:scale-105"
               />
             </div>
             <div className="bg-white w-full z-10 p-6 flex flex-col justify-center gap-2.5 items-center border border-[#eee] rounded-b-[10px]">
@@ -382,7 +382,7 @@ export const SectionFour = () => {
               <img
                 src={chefTwo}
                 alt="chef-two"
-                className="overflow-hidden w-full rounded-t-[10px] transition duration-300 ease-in-out hover:transform hover:scale-110"
+                className="overflow-hidden w-full rounded-t-[10px] transition duration-300 ease-in-out hover:transform hover:scale-105"
               />
             </div>
             <div className="bg-white w-full z-10 p-6 flex flex-col justify-center gap-2.5 items-center border border-[#eee] rounded-b-[10px]">
@@ -477,7 +477,7 @@ export const SectionFour = () => {
               <img
                 src={chefThree}
                 alt="chef-three"
-                className="overflow-hidden w-full rounded-t-[10px] transition duration-300 ease-in-out hover:transform hover:scale-110"
+                className="overflow-hidden w-full rounded-t-[10px] transition duration-300 ease-in-out hover:transform hover:scale-105"
               />
             </div>
             <div className="bg-white w-full z-10 p-6 flex flex-col justify-center gap-2.5 items-center border border-[#eee] rounded-b-[10px]">
